@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+spacy
+transformers
+sentence-transformers
+torch
+scikit-learn
+xgboost
+pandas
+pinecone-client
+psycopg2
+celery
+pytest
+plotly
