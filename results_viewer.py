@@ -209,7 +209,9 @@ st.markdown(
 )
 
 
-LOG_DIR = "data"
+BASE_DIR = Path(__file__).resolve().parent
+LOG_DIR = str(BASE_DIR / "data")
+MODELS_DIR = str(BASE_DIR / "models")
 DEEPSEEK_NARRATIVE_CACHE_PATH = os.path.join(LOG_DIR, "deepseek_narrative_cache.json")
 UI_TRANSLATION_CACHE_PATH = os.path.join(LOG_DIR, "ui_translation_cache.json")
 DEFAULT_FOUNDER_COMPANY_VALUES_USD: dict[str, list[dict[str, Any]]] = {
@@ -726,7 +728,7 @@ def fetch_excluded_from_json(entrepreneur_name: str) -> pd.DataFrame:
 
 
 def load_pattern_report() -> dict[str, object]:
-    path = os.path.join("models", "founder_pattern_report.json")
+    path = os.path.join(MODELS_DIR, "founder_pattern_report.json")
     if not os.path.exists(path):
         return {}
     try:
