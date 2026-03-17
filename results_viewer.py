@@ -1896,9 +1896,13 @@ elif view_mode.startswith("2.") or "Pattern Recognition Model" in view_mode or "
         unsafe_allow_html=True,
     )
 
+    pattern_report = load_pattern_report()
     all_training_founders = entrepreneurs if entrepreneurs else sorted(get_entrepreneurs_from_logs())
     auto_signature = "|".join(sorted(all_training_founders))
-    if auto_signature and st.session_state.get("pattern_auto_run_signature") != auto_signature:
+    # Performance guard:
+    # - Do NOT auto-retrain on each new app session.
+    # - Auto-train only when no pattern report exists yet.
+    if not pattern_report and auto_signature and st.session_state.get("pattern_auto_run_signature") != auto_signature:
         try:
             db_dsn = os.getenv("DATABASE_URL", "").strip() or None
             service = PatternLearningService(db_dsn=db_dsn)
@@ -1909,11 +1913,12 @@ elif view_mode.startswith("2.") or "Pattern Recognition Model" in view_mode or "
             )
             st.session_state["pattern_auto_run_signature"] = auto_signature
             st.caption(
-                tr("Auto-refreshed pattern model for all founders:")
+                tr("Auto-trained pattern model (first-run bootstrap):")
                 + f" rows={summary.rows_used}, clusters={summary.n_clusters}, source={summary.data_source}"
             )
+            pattern_report = load_pattern_report()
         except Exception as exc:
-            st.warning(f"{tr('Auto-refresh for all founders failed')}: {exc}")
+            st.warning(f"{tr('Auto-train bootstrap failed')}: {exc}")
 
     with st.expander(tr("Run / refresh pattern learning model")):
         st.caption(
@@ -1947,7 +1952,6 @@ elif view_mode.startswith("2.") or "Pattern Recognition Model" in view_mode or "
             except Exception as exc:
                 st.error(f"{tr('Pattern training failed')}: {exc}")
 
-    pattern_report = load_pattern_report()
     if not pattern_report:
         st.info(
             tr("No pattern-learning report found yet. Click the training button above to generate `models/founder_pattern_report.json`.")
