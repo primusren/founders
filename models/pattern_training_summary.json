@@ -1,0 +1,11 @@
+{
+  "rows_used": 7,
+  "feature_count": 20,
+  "model_name": "xgboost_classifier",
+  "status": "trained",
+  "n_clusters": 3,
+  "model_path": "models\\xgboost_founder_success.joblib",
+  "cluster_path": "models\\founder_clusters.csv",
+  "report_path": "models\\founder_pattern_report.json",
+  "data_source": "logs:Elon Musk|Jeff Bezos|Mark Zuckerberg"
+}
