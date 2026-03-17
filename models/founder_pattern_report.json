@@ -1,0 +1,186 @@
+{
+  "title": "Founder Signal AI Pattern Recognition Model",
+  "goal": "Identify pre-funding founder traits that correlate with future ultra-success outcomes and use them in seed-stage diligence.",
+  "data_source": "logs",
+  "founder_count": 3,
+  "company_value_methodology": [
+    "Public companies: use latest market cap snapshot from primary quote pages (Google Finance preferred) and refresh regularly.",
+    "Private companies: use latest publicly disclosed valuation from credible financial reporting (Reuters, WSJ, major financial media, filings).",
+    "Merged entities: use reported combined valuation only when explicitly disclosed; otherwise keep companies separate.",
+    "If private valuation is undisclosed, store value as null instead of guessing; include note and source.",
+    "Each company entry must include as_of date, source_url, and confidence to make staleness and reliability transparent.",
+    "Inflation policy for future historical comparisons: current founders use today's nominal market value; historical founders use the total company value as of retirement/death, then inflation-adjust that total into current dollars before cross-cohort comparisons."
+  ],
+  "methodology": [
+    "Input data: pre-cutoff fact libraries for historical founders from DB or JSON logs.",
+    "Feature construction: category counts, source density, timing, and interaction terms (technical x risk, AI x curiosity).",
+    "Unsupervised step: SentenceTransformer embeddings + K-means to detect founder archetype clusters.",
+    "Supervised step: XGBoost classifier on labeled success vs control founders to rank predictive signals.",
+    "MVP strategy: with only 3 successful examples, synthetic control profiles are generated to allow supervised fitting; this is a bootstrap baseline until real negatives are added."
+  ],
+  "top_signal_importance": [
+    {
+      "feature": "family_hardship_count",
+      "importance": 1.453279
+    },
+    {
+      "feature": "attribute_count",
+      "importance": 1.378523
+    },
+    {
+      "feature": "source_density",
+      "importance": 1.378523
+    },
+    {
+      "feature": "decision_making_count",
+      "importance": 1.056945
+    },
+    {
+      "feature": "education_count",
+      "importance": 1.027993
+    },
+    {
+      "feature": "early_technical_proficiency_count",
+      "importance": 0.997176
+    },
+    {
+      "feature": "avg_event_year",
+      "importance": 0.878526
+    },
+    {
+      "feature": "network_mentorship_count",
+      "importance": 0.667783
+    },
+    {
+      "feature": "personality_count",
+      "importance": 0.616683
+    },
+    {
+      "feature": "values_count",
+      "importance": 0.548724
+    }
+  ],
+  "cluster_summary": [
+    {
+      "cluster_id": 0,
+      "size": 1,
+      "founders": [
+        "Jeff Bezos"
+      ],
+      "total_cluster_value_usd": 2290000000000.0,
+      "avg_founder_value_usd": 2290000000000.0,
+      "value_weighted_success_score": 0.908548
+    },
+    {
+      "cluster_id": 1,
+      "size": 1,
+      "founders": [
+        "Mark Zuckerberg"
+      ],
+      "total_cluster_value_usd": 1630000000000.0,
+      "avg_founder_value_usd": 1630000000000.0,
+      "value_weighted_success_score": 0.887455
+    },
+    {
+      "cluster_id": 2,
+      "size": 1,
+      "founders": [
+        "Elon Musk"
+      ],
+      "total_cluster_value_usd": 2345700000000.0,
+      "avg_founder_value_usd": 2345700000000.0,
+      "value_weighted_success_score": 0.910039
+    }
+  ],
+  "founder_company_values": [
+    {
+      "founder": "Elon Musk",
+      "companies": [
+        {
+          "company": "Tesla",
+          "value_usd": 1240000000000,
+          "type": "public_market_cap",
+          "as_of": "2026-03-17",
+          "source_url": "https://www.google.com/finance/quote/TSLA",
+          "confidence": "high"
+        },
+        {
+          "company": "SpaceX-xAI (merged entity)",
+          "value_usd": 1100000000000,
+          "type": "private_valuation",
+          "as_of": "2026-02-03",
+          "source_url": "https://www.reuters.com/business/",
+          "confidence": "medium",
+          "notes": "Merged valuation from public reporting."
+        },
+        {
+          "company": "The Boring Company",
+          "value_usd": 5700000000,
+          "type": "private_valuation",
+          "as_of": "2025-01-01",
+          "source_url": "https://www.reuters.com/business/autos-transportation/musks-boring-company-valued-56-bln-after-latest-funding-round-2022-04-21/",
+          "confidence": "low",
+          "notes": "Latest broadly cited public estimate appears stale."
+        }
+      ],
+      "total_company_value_usd": 2345700000000.0
+    },
+    {
+      "founder": "Jeff Bezos",
+      "companies": [
+        {
+          "company": "Amazon",
+          "value_usd": 2290000000000,
+          "type": "public_market_cap",
+          "as_of": "2026-03-17",
+          "source_url": "https://www.google.com/finance/quote/AMZN:NASDAQ",
+          "confidence": "high"
+        },
+        {
+          "company": "Blue Origin",
+          "value_usd": null,
+          "type": "private_valuation_undisclosed",
+          "as_of": "2026-03-17",
+          "source_url": "https://sacra.com/c/blue-origin/",
+          "confidence": "low",
+          "notes": "No reliable current public valuation disclosure."
+        }
+      ],
+      "total_company_value_usd": 2290000000000.0
+    },
+    {
+      "founder": "Mark Zuckerberg",
+      "companies": [
+        {
+          "company": "Meta",
+          "value_usd": 1630000000000,
+          "type": "public_market_cap",
+          "as_of": "2026-03-17",
+          "source_url": "https://www.google.com/finance/quote/META:NASDAQ",
+          "confidence": "high"
+        }
+      ],
+      "total_company_value_usd": 1630000000000.0
+    }
+  ],
+  "findings": [
+    "family_hardship_count: higher in exemplar founders by 6.92 on average (importance 1.453).",
+    "attribute_count: higher in exemplar founders by 27.22 on average (importance 1.379).",
+    "source_density: higher in exemplar founders by 27.22 on average (importance 1.379).",
+    "decision_making_count: higher in exemplar founders by 1.57 on average (importance 1.057).",
+    "education_count: higher in exemplar founders by 10.12 on average (importance 1.028).",
+    "early_technical_proficiency_count: higher in exemplar founders by 2.06 on average (importance 0.997)."
+  ],
+  "interview_questions": [
+    "What high-conviction technical project did you build before external funding, and why did you choose it?",
+    "Describe a major pre-funding risk you took that could have failed badly. Why was it worth it?",
+    "Which early hardship most changed your operating behavior as a founder?",
+    "How quickly do you make irreversible decisions under uncertainty, and what evidence do you require?",
+    "What ideas in AI do you study deeply beyond your current product roadmap?",
+    "Which mentors or peers materially changed your trajectory before founding?",
+    "Tell me about a time you persisted through failure when quitting was rational.",
+    "What contrarian belief do you hold about your market that most smart people disagree with?",
+    "How do you balance speed versus quality when technical debt and customer pressure conflict?",
+    "If you had zero capital for 18 months, what is your exact build-and-go-to-market plan?"
+  ]
+}
