@@ -1,0 +1,72 @@
+{
+  "methodology": {
+    "version": "2026-03-17",
+    "steps": [
+      "Public companies: use latest market cap snapshot from primary quote pages (Google Finance preferred) and refresh regularly.",
+      "Private companies: use latest publicly disclosed valuation from credible financial reporting (Reuters, WSJ, major financial media, filings).",
+      "Merged entities: use reported combined valuation only when explicitly disclosed; otherwise keep companies separate.",
+      "If private valuation is undisclosed, store value as null instead of guessing; include note and source.",
+      "Each company entry must include as_of date, source_url, and confidence to make staleness and reliability transparent.",
+      "Inflation policy for future historical comparisons: current founders use today's nominal market value; historical founders use the total company value as of retirement/death, then inflation-adjust that total into current dollars before cross-cohort comparisons."
+    ]
+  },
+  "founders": {
+    "Elon Musk": [
+      {
+        "company": "Tesla",
+        "value_usd": 1240000000000,
+        "type": "public_market_cap",
+        "as_of": "2026-03-17",
+        "source_url": "https://www.google.com/finance/quote/TSLA",
+        "confidence": "high"
+      },
+      {
+        "company": "SpaceX-xAI (merged entity)",
+        "value_usd": 1100000000000,
+        "type": "private_valuation",
+        "as_of": "2026-02-03",
+        "source_url": "https://www.reuters.com/business/",
+        "confidence": "medium",
+        "notes": "Merged valuation from public reporting."
+      },
+      {
+        "company": "The Boring Company",
+        "value_usd": 5700000000,
+        "type": "private_valuation",
+        "as_of": "2025-01-01",
+        "source_url": "https://www.reuters.com/business/autos-transportation/musks-boring-company-valued-56-bln-after-latest-funding-round-2022-04-21/",
+        "confidence": "low",
+        "notes": "Latest broadly cited public estimate appears stale."
+      }
+    ],
+    "Jeff Bezos": [
+      {
+        "company": "Amazon",
+        "value_usd": 2290000000000,
+        "type": "public_market_cap",
+        "as_of": "2026-03-17",
+        "source_url": "https://www.google.com/finance/quote/AMZN:NASDAQ",
+        "confidence": "high"
+      },
+      {
+        "company": "Blue Origin",
+        "value_usd": null,
+        "type": "private_valuation_undisclosed",
+        "as_of": "2026-03-17",
+        "source_url": "https://sacra.com/c/blue-origin/",
+        "confidence": "low",
+        "notes": "No reliable current public valuation disclosure."
+      }
+    ],
+    "Mark Zuckerberg": [
+      {
+        "company": "Meta",
+        "value_usd": 1630000000000,
+        "type": "public_market_cap",
+        "as_of": "2026-03-17",
+        "source_url": "https://www.google.com/finance/quote/META:NASDAQ",
+        "confidence": "high"
+      }
+    ]
+  }
+}
