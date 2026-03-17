@@ -285,6 +285,85 @@ CUTOFF_CONTEXT_OVERRIDES: dict[str, dict[str, str]] = {
 }
 
 
+def _parse_env_file(path: Path) -> dict[str, str]:
+    parsed: dict[str, str] = {}
+    if not path.exists():
+        return parsed
+    try:
+        with open(path, "r", encoding="utf-8-sig") as f:
+            for line in f:
+                raw = line.strip()
+                if not raw or raw.startswith("#") or "=" not in raw:
+                    continue
+                match = re.match(r"^(?:export\s+)?([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)$", raw)
+                if not match:
+                    continue
+                key = match.group(1).strip()
+                value = match.group(2).strip().strip('"').strip("'")
+                if value:
+                    parsed[key] = value
+    except Exception:
+        return {}
+    return parsed
+
+
+def _bootstrap_env_from_local_files() -> None:
+    """
+    Load env vars from .env/.env.template if not already set.
+    This helps Streamlit runs where shell env vars are not injected.
+    """
+    candidates = [
+        BASE_DIR / ".env",
+        BASE_DIR / ".env.template",
+        Path.cwd() / ".env",
+        Path.cwd() / ".env.template",
+    ]
+    seen: set[str] = set()
+    for candidate in candidates:
+        key = str(candidate.resolve()) if candidate.exists() else str(candidate)
+        if key in seen:
+            continue
+        seen.add(key)
+        values = _parse_env_file(candidate)
+        for env_key, env_value in values.items():
+            if not os.getenv(env_key, "").strip():
+                os.environ[env_key] = env_value
+
+
+def _discover_log_files() -> list[str]:
+    pattern = "*_ingestion_detailed_log.json"
+    roots = [
+        Path(LOG_DIR),
+        BASE_DIR / "data",
+        Path.cwd() / "data",
+    ]
+    files: list[str] = []
+    seen: set[str] = set()
+    for root in roots:
+        try:
+            if root.exists():
+                for file_path in root.glob(pattern):
+                    resolved = str(file_path.resolve())
+                    if resolved not in seen:
+                        seen.add(resolved)
+                        files.append(resolved)
+        except Exception:
+            continue
+    # Last-resort recursive sweep under repo root.
+    try:
+        for file_path in BASE_DIR.rglob(pattern):
+            resolved = str(file_path.resolve())
+            if resolved not in seen:
+                seen.add(resolved)
+                files.append(resolved)
+    except Exception:
+        pass
+    return files
+
+
+_bootstrap_env_from_local_files()
+
+
 def title_from_slug(slug: str) -> str:
     clean = slug.replace("_", " ").replace("-", " ").strip()
     return " ".join(part.capitalize() for part in clean.split())
@@ -329,7 +408,11 @@ def get_entrepreneurs_from_db() -> list[str]:
 
 def get_entrepreneurs_from_logs() -> list[str]:
     index = build_log_index()
-    return sorted(index.keys())
+    if index:
+        return sorted(index.keys())
+    # If logs are missing in deployment, still provide founder selector
+    # from the latest pattern report.
+    return sorted(_founders_from_pattern_report())
 
 
 def build_log_index() -> dict[str, str]:
@@ -339,7 +422,7 @@ def build_log_index() -> dict[str, str]:
     by accepted_count and then latest modified time.
     """
     candidates: dict[str, tuple[str, int, float]] = {}
-    log_files = glob.glob(os.path.join(LOG_DIR, "*_ingestion_detailed_log.json"))
+    log_files = _discover_log_files()
     for file_path in log_files:
         try:
             with open(file_path, "r", encoding="utf-8") as f:
@@ -881,6 +964,26 @@ def _load_ui_translation_cache() -> dict[str, str]:
     except Exception:
         return {}
     return {}
+
+
+def _founders_from_pattern_report() -> list[str]:
+    report = load_pattern_report()
+    if not report:
+        return []
+    names: list[str] = []
+    for cluster in report.get("cluster_summary", []) or []:
+        for founder in cluster.get("founders", []) or []:
+            name = str(founder or "").strip()
+            if name:
+                names.append(name)
+    deduped: list[str] = []
+    seen: set[str] = set()
+    for name in names:
+        key = canonical_name_key(name)
+        if key and key not in seen:
+            seen.add(key)
+            deduped.append(name)
+    return deduped
 
 
 def _persist_ui_translation_cache(cache: dict[str, str]) -> None:
