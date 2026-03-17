@@ -4,24 +4,16 @@
   "cutoff_reason": "DATE CUTOFF is the first institutional financing milestone (seed/Series A proxy). Only facts anchored strictly before this date are accepted.",
   "source_urls": [
     "https://en.wikipedia.org/wiki/Jeff_Bezos",
-    "https://www.britannica.com/biography/jeff-bezos",
+    "https://www.britannica.com/biography/Jeff-Bezos",
     "https://www.biography.com/business-leaders/jeff-bezos",
-    "https://www.loc.gov/guides/business-history/",
-    "https://archive.org/search?query=Jeff+Bezos+biography+interview",
-    "https://www.founderspodcast.com/search?q=Jeff+Bezos",
-    "https://www.gutenberg.org/ebooks/search/?query=Jeff+Bezos",
-    "https://www.failory.com/blog/jeff-bezos"
+    "https://www.history.com/topics/amazon/jeff-bezos"
   ],
-  "source_count": 8,
+  "source_count": 4,
   "source_priority_scores": {
     "https://en.wikipedia.org/wiki/Jeff_Bezos": 26,
-    "https://www.britannica.com/biography/jeff-bezos": 25,
+    "https://www.britannica.com/biography/Jeff-Bezos": 25,
     "https://www.biography.com/business-leaders/jeff-bezos": 25,
-    "https://www.loc.gov/guides/business-history/": 22,
-    "https://archive.org/search?query=Jeff+Bezos+biography+interview": 21,
-    "https://www.founderspodcast.com/search?q=Jeff+Bezos": 20,
-    "https://www.gutenberg.org/ebooks/search/?query=Jeff+Bezos": 20,
-    "https://www.failory.com/blog/jeff-bezos": 17
+    "https://www.history.com/topics/amazon/jeff-bezos": 1
   },
   "total_source_words": 9093,
   "raw_candidate_fact_count": 162,
@@ -1010,77 +1002,77 @@
       "category": "demographic_contextual",
       "fact": "Shaw and moved to Seattle , Washington, to open a virtual bookstore.",
       "event_date": "1990-01-01",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "deterministic_anchor"
     },
     {
       "category": "education",
       "fact": "While still in high school , Bezos developed the Dream Institute, a center that promoted creative thinking in young students.",
       "event_date": "1987-01-01",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "raw_sentence_high_recall"
     },
     {
       "category": "education",
       "fact": "After graduating (1986) summa cum laude from Princeton University with degrees in electrical engineering and computer science , he undertook a series of jobs before joining the New York investment bank D.E.",
       "event_date": "1986-01-01",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "raw_sentence_high_recall"
     },
     {
       "category": "intellectual_curiosity",
       "fact": "Shaw and moved to Seattle , Washington, to open a virtual bookstore.",
       "event_date": "None",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "raw_sentence_high_recall"
     },
     {
       "category": "external_positive_signal",
       "fact": "Working out of their garage with a handful of employees, they began developing the software for the site and the business plan for the new company.",
       "event_date": "None",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "raw_sentence_high_recall"
     },
     {
       "category": "intellectual_curiosity",
       "fact": "Named after the South American river , Amazon sold its first book in July 1995.",
       "event_date": "1995-01-01",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "raw_sentence_high_recall"
     },
     {
       "category": "education",
       "fact": "While still in high school , Bezos developed the Dream Institute, a center that promoted creative thinking in young students.",
       "event_date": "1987-01-01",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "interview_generation_heuristics"
     },
     {
       "category": "education",
       "fact": "After graduating (1986) summa cum laude from Princeton University with degrees in electrical engineering and computer science , he undertook a series of jobs before joining the New York investment bank D.E.",
       "event_date": "1986-01-01",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "interview_generation_heuristics"
     },
     {
       "category": "intellectual_curiosity",
       "fact": "Shaw and moved to Seattle , Washington, to open a virtual bookstore.",
       "event_date": "None",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "interview_generation_heuristics"
     },
     {
       "category": "external_positive_signal",
       "fact": "Working out of their garage with a handful of employees, they began developing the software for the site and the business plan for the new company.",
       "event_date": "None",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "interview_generation_heuristics"
     },
     {
       "category": "intellectual_curiosity",
       "fact": "Named after the South American river , Amazon sold its first book in July 1995.",
       "event_date": "1995-01-01",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "interview_generation_heuristics"
     },
     {
@@ -1192,7 +1184,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1207,7 +1199,7 @@
       "timestamp": "1969-01-01",
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1252,7 +1244,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1268,7 +1260,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1284,7 +1276,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1300,7 +1292,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://www.biography.com/business-leaders/jeff-bezos",
       "inference": "",
@@ -1316,7 +1308,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1332,9 +1324,9 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
-      "source_primary": "https://www.britannica.com/biography/jeff-bezos",
+      "source_primary": "https://www.britannica.com/biography/Jeff-Bezos",
       "inference": "",
       "confidence": "high",
       "verification_source_count": 3,
@@ -1363,7 +1355,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1379,7 +1371,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1395,7 +1387,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1411,7 +1403,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1427,9 +1419,9 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
-      "source_primary": "https://www.britannica.com/biography/jeff-bezos",
+      "source_primary": "https://www.britannica.com/biography/Jeff-Bezos",
       "inference": "",
       "confidence": "high",
       "verification_source_count": 3,
@@ -1443,7 +1435,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://www.biography.com/business-leaders/jeff-bezos",
       "inference": "",
@@ -1459,7 +1451,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1475,7 +1467,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1491,7 +1483,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1507,7 +1499,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1523,7 +1515,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://www.biography.com/business-leaders/jeff-bezos",
       "inference": "",
@@ -1539,7 +1531,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1554,7 +1546,7 @@
       "timestamp": "1990-01-01",
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1570,7 +1562,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1586,7 +1578,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1602,9 +1594,9 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
-      "source_primary": "https://www.britannica.com/biography/jeff-bezos",
+      "source_primary": "https://www.britannica.com/biography/Jeff-Bezos",
       "inference": "",
       "confidence": "high",
       "verification_source_count": 3,
@@ -1618,7 +1610,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://www.biography.com/business-leaders/jeff-bezos",
       "inference": "",
@@ -1633,7 +1625,7 @@
       "timestamp": "1990-01-01",
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1648,7 +1640,7 @@
       "timestamp": "1994-01-01",
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "",
@@ -1664,7 +1656,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "contextual_pre_cutoff_unanchored",
@@ -1680,7 +1672,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "contextual_pre_cutoff_unanchored",
@@ -1696,7 +1688,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "contextual_pre_cutoff_unanchored",
@@ -1711,7 +1703,7 @@
       "timestamp": "1995-01-01",
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "contextual_pre_cutoff_unanchored",
@@ -1727,7 +1719,7 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "source_primary": "https://en.wikipedia.org/wiki/Jeff_Bezos",
       "inference": "contextual_pre_cutoff_unanchored",
@@ -1772,9 +1764,9 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "https://www.biography.com/business-leaders/jeff-bezos",
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
-      "source_primary": "https://www.britannica.com/biography/jeff-bezos",
+      "source_primary": "https://www.britannica.com/biography/Jeff-Bezos",
       "inference": "",
       "confidence": "high",
       "verification_source_count": 3,
@@ -1799,7 +1791,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1810,7 +1802,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1821,7 +1813,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1831,7 +1823,7 @@
         "timestamp": "1990-01-01",
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1842,7 +1834,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1853,7 +1845,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1864,7 +1856,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1875,7 +1867,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1885,7 +1877,7 @@
         "timestamp": "1994-01-01",
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1908,7 +1900,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1938,7 +1930,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1949,7 +1941,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1960,7 +1952,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1971,7 +1963,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1982,7 +1974,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -1993,7 +1985,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "contextual_pre_cutoff_unanchored",
         "confidence": "medium"
@@ -2025,7 +2017,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2036,7 +2028,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2047,7 +2039,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2058,7 +2050,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2069,7 +2061,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2080,7 +2072,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2091,7 +2083,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2102,7 +2094,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2115,7 +2107,7 @@
         "timestamp": "1990-01-01",
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2127,7 +2119,7 @@
         "timestamp": "1969-01-01",
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2141,7 +2133,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2152,7 +2144,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2162,7 +2154,7 @@
         "timestamp": "1990-01-01",
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2173,7 +2165,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2183,7 +2175,7 @@
         "timestamp": "1994-01-01",
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2196,7 +2188,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2207,7 +2199,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2218,7 +2210,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2229,7 +2221,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2240,7 +2232,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2251,7 +2243,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2272,7 +2264,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2283,7 +2275,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2294,7 +2286,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2305,7 +2297,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2316,7 +2308,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2327,7 +2319,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2338,7 +2330,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2349,7 +2341,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2360,7 +2352,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2371,7 +2363,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2382,7 +2374,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2392,7 +2384,7 @@
         "timestamp": "1990-01-01",
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2403,7 +2395,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2413,7 +2405,7 @@
         "timestamp": "1994-01-01",
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2424,7 +2416,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "contextual_pre_cutoff_unanchored",
         "confidence": "medium"
@@ -2435,7 +2427,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "contextual_pre_cutoff_unanchored",
         "confidence": "medium"
@@ -2446,7 +2438,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "contextual_pre_cutoff_unanchored",
         "confidence": "medium"
@@ -2456,7 +2448,7 @@
         "timestamp": "1995-01-01",
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "contextual_pre_cutoff_unanchored",
         "confidence": "medium"
@@ -2467,7 +2459,7 @@
         "sources": [
           "https://en.wikipedia.org/wiki/Jeff_Bezos",
           "https://www.biography.com/business-leaders/jeff-bezos",
-          "https://www.britannica.com/biography/jeff-bezos"
+          "https://www.britannica.com/biography/Jeff-Bezos"
         ],
         "inference": "",
         "confidence": "high"
@@ -2476,7 +2468,7 @@
   },
   "founder_analysis": {
     "Decision making": {
-      "analysis": "Based on pre-1996 evidence, Jeff Bezos's decision-making framework appears rooted in a synthesis of analytical quantification, high-agency mobility, and a bias toward scalable opportunity, shaped by early instability and frequent relocation.\n\nA causal pattern emerges from his family's repeated moves (Miami, Houston) following his stepfather's engineering career [2,4,6,7]. This likely ingrained a worldview where geographic and situational constraints are mutable, fostering a high-agency mindset where major life decisions (e.g., moving to Seattle to start Amazon) are tools for pursuing opportunity [8]. This mobility paired with an early affinity for systematic, quantifiable systems, evidenced by his teenage development of a \"love for computers\" and his later, near-contemporaneous characterization in the 1990s of trying to \"quantify all aspects\" of company management using data and spreadsheets [3,5,9]. His decision to found an online bookstore was not a whimsical leap but a data-driven response to a quantified trend: web usage growing at 2,300% annually [10].\n\nKey tradeoffs in this model include sacrificing stability for growth potential and potentially over-indexing on quantifiable metrics at the expense of softer, human factors. Under pressure, his likely behavior would be to double down on data analysis while executing decisive, location-agnostic pivots to align with the largest measurable trend.\n\nTwo non-obvious inferences: 1) His stepfather's engineering discipline at Exxon may have provided a formative model for systematic, project-based problem-solving that complements Bezos's own computer-centric systematization [4,6]. 2) The early family disruption [1] may have contributed to a resilience and independence that later facilitated high-stakes, cross-country entrepreneurial bets.\n\nA primary risk caveat is that this intensely analytical and opportunistic framework could lead to underestimating complex, non-quantifiable variables like regulatory hurdles, cultural resistance, or team morale. A significant data gap exists regarding any internal conflict or emotional calculus behind his major pre-1996 decisions (e.g., leaving his finance job), as the evidence only records the outcomes.",
+      "analysis": "Based on pre-1996 evidence, Jeff Bezos's decision-making framework appears rooted in a pattern of decisive, data-driven action in response to major inflection points, often involving significant personal relocation. A causal pattern emerges where exposure to new environments (Miami, Houston) catalyzes intellectual and entrepreneurial development [2,3,4,6,7,9]. The critical tradeoff in his methodology is between stability and opportunity cost. His move to Seattle to found Amazon required leaving a stable finance career, indicating a high-risk tolerance where the potential of a macro trend (2300% web growth) overrides conventional security [8,10].\n\nUnder pressure, his likely behavior is to retreat to quantification and decisive action, as later evidenced by his 1990s management style of using spreadsheets and data for executive decisions [5]. This suggests a coping mechanism that prioritizes controllable metrics over emotional ambiguity.\n\nTwo non-obvious inferences can be drawn. First, his early family instability\u2014his mother's divorce when he was 17 months old [1]\u2014may have indirectly fostered resilience and self-reliance, traits later channeled into high-stakes business bets. Second, the influence of his stepfather, Mike, an Exxon engineer [4,6], likely provided an early model for systematic, technical problem-solving, which Bezos later applied to business systems.\n\nA key risk caveat is that his data-centric, high-velocity decision model could lead to premature commitment in fluid situations, potentially misinterpreting early exponential trends. A significant data gap exists regarding his decision-making processes during his pre-Amazon Wall Street career, creating an incomplete picture of his professional calibration before the entrepreneurial leap. There is a subtle contradiction between the narrative of a data-obsessed quant [5] and the profoundly intuitive, visionary bet on the internet in 1994 [10], suggesting his framework may balance quantitative analysis with qualitative, frontier-scale conviction.",
       "confidence": "high",
       "evidence_count": 10,
       "key_signals": [
@@ -2530,7 +2522,7 @@
       ]
     },
     "Crazy things done": {
-      "analysis": "Based on the provided evidence, a deep analysis of Jeff Bezos's pre-1996 \"crazy things done\" reveals a foundational pattern of extreme, calculated risk-taking driven by a singular focus on long-term market dominance, with significant tradeoffs in stability and conventional business ethics.\n\nThe core causal pattern is Bezos's application of a high-risk, high-growth venture capital model to a nascent retail sector. His decision to quit a lucrative Wall Street career to sell books online was a radical personal and professional gamble, predicated on the non-obvious inference that internet commerce would scale exponentially. This was not merely starting a business; it was a deliberate bet against established retail paradigms. The evidence notes his reputation for relentless forward push, suggesting a behavioral driver where momentum and scale became paramount objectives, likely overriding short-term profitability or stakeholder comfort.\n\nA critical tradeoff inherent in this approach was the sacrifice of operational and financial stability for growth velocity. The \"at the expense of public charity and social welfare\" point, while often a later critique, hints at an early philosophical tradeoff: resources (both capital and managerial focus) were allocated almost exclusively to corporate expansion, not broader social good or even traditional corporate citizenship. This creates a clear risk caveat: such a monomaniacal focus on internal growth can blind an organization to external reputational and regulatory dependencies, building a culture that may justify operational harshness as necessary for survival.\n\nUnder pressure, the synthesized pattern suggests Bezos would likely double down on aggressive expansion and cost discipline rather than retreat or diversify. The \"relentless\" descriptor implies a behavior pattern of meeting challenges with increased intensity and strategic conviction, not compromise.\n\nA significant data gap exists, as the provided evidence is a single, broad retrospective point. We lack specific, dated pre-1996 anecdotes detailing operational decisions, funding crises, or internal culture clashes that would flesh out these patterns. The inference about sacrificing social welfare is also a projection from a later reputation onto an earlier period, creating a potential contradiction: it is unclear if this was a conscious early ideology or a later outcome of the growth-at-all-costs model. A second non-obvious inference is that this \"crazy\" risk profile was not impulsive but a systematic application of financial and technology-sector principles to a completely different industry, indicating a transfer of a disruptive mindset, not just capital.",
+      "analysis": "Based on the provided evidence, a deep analysis of Jeff Bezos's pre-1996 \"crazy things done\" reveals a foundational pattern of extreme, calculated risk-taking driven by a singular focus on long-term market dominance, with clear causal tradeoffs and predictable behavioral tendencies.\n\nThe core causal pattern is the direct tradeoff between explosive growth and all other considerations, particularly social welfare and public perception. The evidence states he pushed Amazon forward \"at the expense of public charity and social welfare.\" This indicates a deliberate, systemic prioritization where resources\u2014capital, managerial attention, operational effort\u2014were channeled exclusively toward scaling the business. The \"crazy\" aspect is the absoluteness of this choice, rejecting conventional corporate social responsibility or community goodwill as distractions during the foundational build-out phase.\n\nFrom this, two non-obvious inferences can be drawn. First, his \"relentless\" push suggests an operational philosophy where speed and growth are not just goals but survival mechanisms, likely rooted in a belief that establishing unassailable scale was the only viable defense in a nascent, winner-take-most online market. Second, this early reputation implies the cultivation of an internal culture that normalized the externalization of costs (social, communal) as a necessary input for success, setting a durable cultural precedent.\n\nUnder pressure, the pattern predicts a doubling down on the core growth imperative, likely through aggressive competitive tactics and further internal optimization, rather than a pivot toward stakeholder management or conciliation. A critical risk caveat, however, is that this monomaniacal focus creates significant latent vulnerabilities. It builds a enterprise potentially lacking in social capital and public trust, making it acutely susceptible to reputational crises, regulatory scrutiny, and employee morale issues over the long term. The primary data gap is the absence of specific, documented pre-1996 actions that exemplify this tradeoff, leaving the analysis reliant on a summarized characterization of the decade's reputation. There is no direct contradiction in the evidence, but its generalized nature limits granular behavioral insight into the very earliest company decisions.",
       "confidence": "low",
       "evidence_count": 1,
       "key_signals": [
@@ -2542,7 +2534,7 @@
       ]
     },
     "Values": {
-      "analysis": "Based on the provided evidence, a deep analysis of Jeff Bezos's pre-1996 \"Values\" category reveals a foundational and causal pattern rooted in an extreme long-term orientation and a willingness to make profound trade-offs for visionary goals. The singular piece of evidence\u2014his childhood retrieval and identification of Apollo 11 rocket debris\u2014is profoundly indicative. This act synthesizes into a core value: a deep reverence for monumental, civilization-scale engineering and exploration, coupled with the personal agency to pursue a tangible connection to that future. The causal pattern suggests that for Bezos, value is derived from participating in and enabling transformative, long-horizon human achievement.\n\nThis orientation inherently involves significant trade-offs. Pursuing such grand visions requires sacrificing short-term certainty, conventional paths, and immediate rewards for potential distant payoffs. It values scale, legacy, and frontier-pushing over incrementalism or safety.\n\nUnder pressure, his likely behavior would be to double down on this long-term conviction, viewing near-term obstacles as irrelevant noise compared to the strategic endpoint. He would prioritize protecting and advancing the core visionary mission above all else, potentially at the expense of operational stability or consensus.\n\n**Non-Obvious Inferences:**\n1.  **Resourcefulness and Ownership:** The act of recovering the debris implies not just admiration, but a hands-on, resourceful mentality to \"own\" a piece of that future, foreshadowing a founder who personally identifies with his company's mission.\n2.  **Patience and Delayed Gratification:** The 1969 mission debris was recovered years later; this reflects a value placed on patience and the willingness to invest time and effort for a symbolic return, mirroring Amazon's early \"get big slow\" strategy.\n\n**Risk Caveat:** A significant risk is that this extreme long-term focus could manifest as dismissiveness toward nearer-term operational realities, stakeholder concerns, or ethical considerations viewed as impediments to the grand vision.\n\n**Critical Data Gaps & Contradictions:** The evidence is extremely limited and symbolic. We lack any data on his interpersonal values, ethical frameworks, or management philosophy pre-1996. There is a stark contradiction between the solitary, physical pursuit of space debris and the collaborative, customer-obsessed rhetoric later associated with Amazon's founding; the provided evidence cannot bridge this gap.",
+      "analysis": "Based on the provided evidence, a deep analysis of Jeff Bezos's pre-1996 \"Values\" category is fundamentally constrained by a significant data gap. The single piece of evidence, while high-confidence, pertains to a childhood event (the recovery of Apollo 11 debris) and offers only an indirect, inferential window into his developing value system. A substantive synthesis must therefore center on the logical implications of this formative experience.\n\nThe core causal pattern suggested is that a profound childhood encounter with a pinnacle of human ambition and technology (Apollo 11) planted a deep-seated value for monumental, long-term ambition and execution. This was not a passive interest but an active, physical pursuit, indicating a hands-on, determined approach to engaging with his passions. A key tradeoff inherent in valuing such grand-scale endeavors is a likely prioritization of visionary scale over incremental, near-term gains\u2014a mindset that would later define Amazon's strategy of forgoing early profits for massive growth.\n\nUnder pressure, this value set suggests a behavioral tendency to double down on long-term conviction rather than retreat to short-term safety. Pressure would likely be framed not as a threat, but as a validation of the scale of the challenge, reinforcing persistence.\n\n**Non-obvious inferences:** First, the event implies an early appreciation for complex systems engineering (the Saturn V rocket) as a means to achieve a singular goal, a precursor to valuing scalable systems in business. Second, it suggests a personal connection to the concept of frontiers\u2014both physical (space) and conceptual\u2014valuing exploration and pioneering over established paths.\n\n**Risk Caveat:** The primary risk in this analysis is the extreme paucity of direct evidence. We are extrapolating a lifelong value framework from one childhood anecdote. A critical contradiction or gap is the complete absence of data on how these nascent values interacted with other formative influences (e.g., education, early work experiences at Fitel, Bankers Trust, or D. E. Shaw) between this childhood event and Amazon's founding. The values inferred may have been moderated, intensified, or redirected by these unseen experiences.",
       "confidence": "low",
       "evidence_count": 1,
       "key_signals": [
@@ -2564,7 +2556,7 @@
       ]
     },
     "Motivation for starting business": {
-      "analysis": "**Analysis: Pre-1996 Motivation for Starting Business \u2013 Jeff Bezos**\n\nThe pre-1996 evidence reveals a foundational motivation driven by a powerful synthesis of visionary ambition and systematic, data-driven execution. Bezos\u2019s core drive was not merely entrepreneurial but oriented toward building large-scale, transformative systems, as evidenced by his 1982 vision for orbital colonies and earthbound entertainment complexes [1]. This early macro-scale ambition later found a concrete vector in the explosive growth of the web, which he quantified as growing at 2,300% annually [5]. His decision to launch an online bookstore was not a random startup idea but a calculated application of his systematic mindset toward a massive, data-verified trend. The causal pattern is clear: a grand vision for human-scale infrastructure was channeled through a lens of quantitative opportunity analysis.\n\nThis motivation implies significant tradeoffs and predictable behavior under pressure. Bezos\u2019s data-centric approach, noted as a defining characteristic in the 1990s [3], suggests he would prioritize long-term systemic potential over short-term profitability or sentiment. Under pressure, he would likely double down on quantitative metrics and long-range plans, potentially appearing rigid or dismissive of qualitative objections. A key non-obvious inference is that his teenage computer business [2,4] was likely less a passion project and more an early experimental platform for this systems-building mindset. Secondly, his move to Miami [2,4] was not just a relocation but a critical environmental shift that provided access to the computing resources that catalyzed his technical and entrepreneurial development.\n\nA major risk caveat is that this intense focus on quantified, macro-scale opportunities could lead to catastrophic oversight of unquantifiable risks, such as human capital burnout or nuanced market sentiment. A notable data gap exists: we lack evidence detailing the nature and outcome of his first teenage business [2,4], creating ambiguity about his early practical learning from failure or success. There is no direct contradiction in the evidence, but the leap from orbital colonies to online retail underscores a flexible, opportunistic adaptation of a consistent foundational drive: to build transformative systems where data indicates transformative scale is possible.",
+      "analysis": "Based on pre-1996 evidence, Jeff Bezos's entrepreneurial motivation was driven by a powerful synthesis of visionary ambition and systematic, data-driven execution. The causal pattern shows a progression from grand, conceptual visions to pragmatic, opportunity-driven business creation. His 1982 valedictorian vision of building orbital colonies and space hotels [1] reveals a foundational motivation rooted in large-scale, frontier-building endeavors, not merely commercial success. This evolved into a demonstrated affinity for technology and early business experimentation as a teenager in Miami [2][4]. The critical catalyst was his 1994 decision to found an online bookstore after reading a statistic about 2,300% annual web growth [5], showcasing a motivation triggered by identifying a massive, quantifiable trend and acting decisively.\n\nA key tradeoff inherent in this motivation is between expansive, long-term vision and near-term analytical rigor. His early space colonization ideas required immense imagination, while his noted behavior in the 1990s\u2014quantifying all aspects of operations and basing decisions on data [3]\u2014demonstrates a counterbalancing obsession with measurable control. Under pressure, his likely behavior would be to retreat to data as a primary decision-making tool [3], using it to navigate uncertainty while keeping the ultimate visionary goal as a distant guide.\n\nTwo non-obvious inferences emerge. First, his motivation may be less about a specific industry (like books) and more about leveraging exponential technological curves [5] as a vehicle to eventually fund and realize his adolescent space-faring visions [1]. Second, his teenage business start [2][4], combined with his later data focus [3], suggests an intrinsic comfort with risk, provided it can be framed within a logical or analytical model.\n\nA significant risk caveat is the potential for a debilitating contradiction: the sheer scale of his visionary thinking [1] could conflict with the meticulous, spreadsheet-driven management [3] required to build a sustainable enterprise, leading to strategic overreach. A notable data gap exists regarding the nature and outcome of his first teenage business [2][4], leaving his early practical entrepreneurial learning opaque.",
       "confidence": "medium",
       "evidence_count": 5,
       "key_signals": [
@@ -2577,7 +2569,7 @@
       ]
     },
     "Intellectual curiousity": {
-      "analysis": "**Analysis: Intellectual Curiosity in Jeff Bezos (Pre-1996)**\n\nThe pre-1996 evidence reveals a pattern of intense, application-driven intellectual curiosity, characterized by a synthesis of expansive vision and rigorous technical discipline. This curiosity is not abstract but is channeled through structured frameworks for problem-solving and creation.\n\nA clear causal pattern emerges from his academic and early professional trajectory. His intellectual foundation is dual-faceted: he demonstrated early visionary thinking, as evidenced by his 1982 valedictorian speech outlining ambitions for orbital human colonies [3], yet grounded this in the concrete disciplines of electrical engineering and computer science at Princeton, where he graduated *summa cum laude* [6, 8]. This suggests a mind that seeks to tether grand, speculative ideas to executable, technical systems. The tradeoff inherent in this approach is a potential bias toward quantifiable and engineering-solvable problems, possibly at the expense of softer, qualitative domains. Under pressure, this pattern indicates he would likely retreat to data and first-principles reasoning, a behavior later corroborated by his noted 1990s tendency to quantify all aspects of company operations [19].\n\nTwo non-obvious inferences can be drawn. First, his high school creation of the \"Dream Institute\" to promote creative thinking in young students [12] signals an early, intrinsic interest in *systematizing* curiosity and innovation processes, not just possessing it himself. Second, his rejection of prestigious, stable technical roles at Intel and Bell Labs [7] in favor of finance (D.E. Shaw) implies his curiosity was strategically oriented toward understanding large-scale systems\u2014in this case, markets and business models\u2014as a platform for future ventures, not purely technical mastery.\n\nA key risk caveat is the potential for myopic focus. His curiosity appears heavily directed toward building and optimization (from orbital colonies to an online bookstore [21]), with less evidenced focus on deep societal, ethical, or humanistic inquiry. This engineering-centric curiosity could blindside him to complex human or regulatory factors.\n\nA significant data gap exists regarding the specific catalysts or influences behind his major switch at Princeton from physics to engineering [18], which would provide deeper insight into how he evaluates and selects intellectual frameworks. There are no direct contradictions in the evidence, but the juxtaposition of his speculative 1982 visions with his subsequent precise, data-driven reputation [19] highlights a defining synthesis: imagination disciplined by engineering rigor.",
+      "analysis": "Based on pre-1996 evidence, Jeff Bezos exhibits a pattern of intellectual curiosity that is intensely applied, commercially oriented, and driven by a synthesis of expansive vision and rigorous technical discipline. His curiosity is not abstract but channeled through structured frameworks for problem-solving and opportunity identification.\n\nA key causal pattern is the integration of speculative, long-range vision with immediate, quantitative execution. As a high school valedictorian in 1982, he publicly articulated an interest in building orbital human colonies\u2014a profoundly ambitious, frontier concept. However, his academic and early career path demonstrates a disciplined tradeoff: he pursued a rigorous engineering foundation (graduating *summa cum laude* in Electrical Engineering and Computer Science from Princeton) over pure theoretical science, having switched his major from physics. This suggests a behavioral template: grand vision is anchored and executed through applied technical systems. Under pressure, this pattern implies he would likely retreat to first principles and quantitative analysis, a tendency later evidenced by his 1990s reliance on data and spreadsheets for company decisions.\n\nTwo non-obvious inferences emerge. First, his early development of the \"Dream Institute\" to promote creative thinking in students indicates a precocious interest in *systematizing* curiosity and innovation, not just possessing it. Second, his choice upon graduation in 1986 to join finance (D.E. Shaw) over prestigious technical offers from Intel or Bell Labs reveals a strategic curiosity about systems of capital and market mechanics, seeking the leverage point where technology meets large-scale commercial opportunity.\n\nA significant risk caveat is the potential for a consequentialist mindset that could undervalue non-quantifiable factors. His curiosity appears heavily oriented toward scalable systems and measurable outcomes, which, while powerful, may create blind spots in domains requiring qualitative judgment or stakeholder considerations beyond pure data.\n\nA notable data gap exists regarding the specific catalysts for his major switch at Princeton and his detailed intellectual pursuits at D.E. Shaw, limiting a fuller understanding of his decision-making calculus during formative periods.",
       "confidence": "high",
       "evidence_count": 26,
       "key_signals": [
@@ -2594,7 +2586,7 @@
   "founder_analysis_generation_method": "llm_deepseek_verbose_per_category",
   "organized_analysis": {
     "Decision making": {
-      "analysis": "Based on pre-1996 evidence, Jeff Bezos's decision-making framework appears rooted in a synthesis of analytical quantification, high-agency mobility, and a bias toward scalable opportunity, shaped by early instability and frequent relocation.\n\nA causal pattern emerges from his family's repeated moves (Miami, Houston) following his stepfather's engineering career [2,4,6,7]. This likely ingrained a worldview where geographic and situational constraints are mutable, fostering a high-agency mindset where major life decisions (e.g., moving to Seattle to start Amazon) are tools for pursuing opportunity [8]. This mobility paired with an early affinity for systematic, quantifiable systems, evidenced by his teenage development of a \"love for computers\" and his later, near-contemporaneous characterization in the 1990s of trying to \"quantify all aspects\" of company management using data and spreadsheets [3,5,9]. His decision to found an online bookstore was not a whimsical leap but a data-driven response to a quantified trend: web usage growing at 2,300% annually [10].\n\nKey tradeoffs in this model include sacrificing stability for growth potential and potentially over-indexing on quantifiable metrics at the expense of softer, human factors. Under pressure, his likely behavior would be to double down on data analysis while executing decisive, location-agnostic pivots to align with the largest measurable trend.\n\nTwo non-obvious inferences: 1) His stepfather's engineering discipline at Exxon may have provided a formative model for systematic, project-based problem-solving that complements Bezos's own computer-centric systematization [4,6]. 2) The early family disruption [1] may have contributed to a resilience and independence that later facilitated high-stakes, cross-country entrepreneurial bets.\n\nA primary risk caveat is that this intensely analytical and opportunistic framework could lead to underestimating complex, non-quantifiable variables like regulatory hurdles, cultural resistance, or team morale. A significant data gap exists regarding any internal conflict or emotional calculus behind his major pre-1996 decisions (e.g., leaving his finance job), as the evidence only records the outcomes.",
+      "analysis": "Based on pre-1996 evidence, Jeff Bezos's decision-making framework appears rooted in a pattern of decisive, data-driven action in response to major inflection points, often involving significant personal relocation. A causal pattern emerges where exposure to new environments (Miami, Houston) catalyzes intellectual and entrepreneurial development [2,3,4,6,7,9]. The critical tradeoff in his methodology is between stability and opportunity cost. His move to Seattle to found Amazon required leaving a stable finance career, indicating a high-risk tolerance where the potential of a macro trend (2300% web growth) overrides conventional security [8,10].\n\nUnder pressure, his likely behavior is to retreat to quantification and decisive action, as later evidenced by his 1990s management style of using spreadsheets and data for executive decisions [5]. This suggests a coping mechanism that prioritizes controllable metrics over emotional ambiguity.\n\nTwo non-obvious inferences can be drawn. First, his early family instability\u2014his mother's divorce when he was 17 months old [1]\u2014may have indirectly fostered resilience and self-reliance, traits later channeled into high-stakes business bets. Second, the influence of his stepfather, Mike, an Exxon engineer [4,6], likely provided an early model for systematic, technical problem-solving, which Bezos later applied to business systems.\n\nA key risk caveat is that his data-centric, high-velocity decision model could lead to premature commitment in fluid situations, potentially misinterpreting early exponential trends. A significant data gap exists regarding his decision-making processes during his pre-Amazon Wall Street career, creating an incomplete picture of his professional calibration before the entrepreneurial leap. There is a subtle contradiction between the narrative of a data-obsessed quant [5] and the profoundly intuitive, visionary bet on the internet in 1994 [10], suggesting his framework may balance quantitative analysis with qualitative, frontier-scale conviction.",
       "confidence": "high",
       "evidence_count": 10,
       "key_signals": [
@@ -2648,7 +2640,7 @@
       ]
     },
     "Crazy things done": {
-      "analysis": "Based on the provided evidence, a deep analysis of Jeff Bezos's pre-1996 \"crazy things done\" reveals a foundational pattern of extreme, calculated risk-taking driven by a singular focus on long-term market dominance, with significant tradeoffs in stability and conventional business ethics.\n\nThe core causal pattern is Bezos's application of a high-risk, high-growth venture capital model to a nascent retail sector. His decision to quit a lucrative Wall Street career to sell books online was a radical personal and professional gamble, predicated on the non-obvious inference that internet commerce would scale exponentially. This was not merely starting a business; it was a deliberate bet against established retail paradigms. The evidence notes his reputation for relentless forward push, suggesting a behavioral driver where momentum and scale became paramount objectives, likely overriding short-term profitability or stakeholder comfort.\n\nA critical tradeoff inherent in this approach was the sacrifice of operational and financial stability for growth velocity. The \"at the expense of public charity and social welfare\" point, while often a later critique, hints at an early philosophical tradeoff: resources (both capital and managerial focus) were allocated almost exclusively to corporate expansion, not broader social good or even traditional corporate citizenship. This creates a clear risk caveat: such a monomaniacal focus on internal growth can blind an organization to external reputational and regulatory dependencies, building a culture that may justify operational harshness as necessary for survival.\n\nUnder pressure, the synthesized pattern suggests Bezos would likely double down on aggressive expansion and cost discipline rather than retreat or diversify. The \"relentless\" descriptor implies a behavior pattern of meeting challenges with increased intensity and strategic conviction, not compromise.\n\nA significant data gap exists, as the provided evidence is a single, broad retrospective point. We lack specific, dated pre-1996 anecdotes detailing operational decisions, funding crises, or internal culture clashes that would flesh out these patterns. The inference about sacrificing social welfare is also a projection from a later reputation onto an earlier period, creating a potential contradiction: it is unclear if this was a conscious early ideology or a later outcome of the growth-at-all-costs model. A second non-obvious inference is that this \"crazy\" risk profile was not impulsive but a systematic application of financial and technology-sector principles to a completely different industry, indicating a transfer of a disruptive mindset, not just capital.",
+      "analysis": "Based on the provided evidence, a deep analysis of Jeff Bezos's pre-1996 \"crazy things done\" reveals a foundational pattern of extreme, calculated risk-taking driven by a singular focus on long-term market dominance, with clear causal tradeoffs and predictable behavioral tendencies.\n\nThe core causal pattern is the direct tradeoff between explosive growth and all other considerations, particularly social welfare and public perception. The evidence states he pushed Amazon forward \"at the expense of public charity and social welfare.\" This indicates a deliberate, systemic prioritization where resources\u2014capital, managerial attention, operational effort\u2014were channeled exclusively toward scaling the business. The \"crazy\" aspect is the absoluteness of this choice, rejecting conventional corporate social responsibility or community goodwill as distractions during the foundational build-out phase.\n\nFrom this, two non-obvious inferences can be drawn. First, his \"relentless\" push suggests an operational philosophy where speed and growth are not just goals but survival mechanisms, likely rooted in a belief that establishing unassailable scale was the only viable defense in a nascent, winner-take-most online market. Second, this early reputation implies the cultivation of an internal culture that normalized the externalization of costs (social, communal) as a necessary input for success, setting a durable cultural precedent.\n\nUnder pressure, the pattern predicts a doubling down on the core growth imperative, likely through aggressive competitive tactics and further internal optimization, rather than a pivot toward stakeholder management or conciliation. A critical risk caveat, however, is that this monomaniacal focus creates significant latent vulnerabilities. It builds a enterprise potentially lacking in social capital and public trust, making it acutely susceptible to reputational crises, regulatory scrutiny, and employee morale issues over the long term. The primary data gap is the absence of specific, documented pre-1996 actions that exemplify this tradeoff, leaving the analysis reliant on a summarized characterization of the decade's reputation. There is no direct contradiction in the evidence, but its generalized nature limits granular behavioral insight into the very earliest company decisions.",
       "confidence": "low",
       "evidence_count": 1,
       "key_signals": [
@@ -2660,7 +2652,7 @@
       ]
     },
     "Values": {
-      "analysis": "Based on the provided evidence, a deep analysis of Jeff Bezos's pre-1996 \"Values\" category reveals a foundational and causal pattern rooted in an extreme long-term orientation and a willingness to make profound trade-offs for visionary goals. The singular piece of evidence\u2014his childhood retrieval and identification of Apollo 11 rocket debris\u2014is profoundly indicative. This act synthesizes into a core value: a deep reverence for monumental, civilization-scale engineering and exploration, coupled with the personal agency to pursue a tangible connection to that future. The causal pattern suggests that for Bezos, value is derived from participating in and enabling transformative, long-horizon human achievement.\n\nThis orientation inherently involves significant trade-offs. Pursuing such grand visions requires sacrificing short-term certainty, conventional paths, and immediate rewards for potential distant payoffs. It values scale, legacy, and frontier-pushing over incrementalism or safety.\n\nUnder pressure, his likely behavior would be to double down on this long-term conviction, viewing near-term obstacles as irrelevant noise compared to the strategic endpoint. He would prioritize protecting and advancing the core visionary mission above all else, potentially at the expense of operational stability or consensus.\n\n**Non-Obvious Inferences:**\n1.  **Resourcefulness and Ownership:** The act of recovering the debris implies not just admiration, but a hands-on, resourceful mentality to \"own\" a piece of that future, foreshadowing a founder who personally identifies with his company's mission.\n2.  **Patience and Delayed Gratification:** The 1969 mission debris was recovered years later; this reflects a value placed on patience and the willingness to invest time and effort for a symbolic return, mirroring Amazon's early \"get big slow\" strategy.\n\n**Risk Caveat:** A significant risk is that this extreme long-term focus could manifest as dismissiveness toward nearer-term operational realities, stakeholder concerns, or ethical considerations viewed as impediments to the grand vision.\n\n**Critical Data Gaps & Contradictions:** The evidence is extremely limited and symbolic. We lack any data on his interpersonal values, ethical frameworks, or management philosophy pre-1996. There is a stark contradiction between the solitary, physical pursuit of space debris and the collaborative, customer-obsessed rhetoric later associated with Amazon's founding; the provided evidence cannot bridge this gap.",
+      "analysis": "Based on the provided evidence, a deep analysis of Jeff Bezos's pre-1996 \"Values\" category is fundamentally constrained by a significant data gap. The single piece of evidence, while high-confidence, pertains to a childhood event (the recovery of Apollo 11 debris) and offers only an indirect, inferential window into his developing value system. A substantive synthesis must therefore center on the logical implications of this formative experience.\n\nThe core causal pattern suggested is that a profound childhood encounter with a pinnacle of human ambition and technology (Apollo 11) planted a deep-seated value for monumental, long-term ambition and execution. This was not a passive interest but an active, physical pursuit, indicating a hands-on, determined approach to engaging with his passions. A key tradeoff inherent in valuing such grand-scale endeavors is a likely prioritization of visionary scale over incremental, near-term gains\u2014a mindset that would later define Amazon's strategy of forgoing early profits for massive growth.\n\nUnder pressure, this value set suggests a behavioral tendency to double down on long-term conviction rather than retreat to short-term safety. Pressure would likely be framed not as a threat, but as a validation of the scale of the challenge, reinforcing persistence.\n\n**Non-obvious inferences:** First, the event implies an early appreciation for complex systems engineering (the Saturn V rocket) as a means to achieve a singular goal, a precursor to valuing scalable systems in business. Second, it suggests a personal connection to the concept of frontiers\u2014both physical (space) and conceptual\u2014valuing exploration and pioneering over established paths.\n\n**Risk Caveat:** The primary risk in this analysis is the extreme paucity of direct evidence. We are extrapolating a lifelong value framework from one childhood anecdote. A critical contradiction or gap is the complete absence of data on how these nascent values interacted with other formative influences (e.g., education, early work experiences at Fitel, Bankers Trust, or D. E. Shaw) between this childhood event and Amazon's founding. The values inferred may have been moderated, intensified, or redirected by these unseen experiences.",
       "confidence": "low",
       "evidence_count": 1,
       "key_signals": [
@@ -2682,7 +2674,7 @@
       ]
     },
     "Motivation for starting business": {
-      "analysis": "**Analysis: Pre-1996 Motivation for Starting Business \u2013 Jeff Bezos**\n\nThe pre-1996 evidence reveals a foundational motivation driven by a powerful synthesis of visionary ambition and systematic, data-driven execution. Bezos\u2019s core drive was not merely entrepreneurial but oriented toward building large-scale, transformative systems, as evidenced by his 1982 vision for orbital colonies and earthbound entertainment complexes [1]. This early macro-scale ambition later found a concrete vector in the explosive growth of the web, which he quantified as growing at 2,300% annually [5]. His decision to launch an online bookstore was not a random startup idea but a calculated application of his systematic mindset toward a massive, data-verified trend. The causal pattern is clear: a grand vision for human-scale infrastructure was channeled through a lens of quantitative opportunity analysis.\n\nThis motivation implies significant tradeoffs and predictable behavior under pressure. Bezos\u2019s data-centric approach, noted as a defining characteristic in the 1990s [3], suggests he would prioritize long-term systemic potential over short-term profitability or sentiment. Under pressure, he would likely double down on quantitative metrics and long-range plans, potentially appearing rigid or dismissive of qualitative objections. A key non-obvious inference is that his teenage computer business [2,4] was likely less a passion project and more an early experimental platform for this systems-building mindset. Secondly, his move to Miami [2,4] was not just a relocation but a critical environmental shift that provided access to the computing resources that catalyzed his technical and entrepreneurial development.\n\nA major risk caveat is that this intense focus on quantified, macro-scale opportunities could lead to catastrophic oversight of unquantifiable risks, such as human capital burnout or nuanced market sentiment. A notable data gap exists: we lack evidence detailing the nature and outcome of his first teenage business [2,4], creating ambiguity about his early practical learning from failure or success. There is no direct contradiction in the evidence, but the leap from orbital colonies to online retail underscores a flexible, opportunistic adaptation of a consistent foundational drive: to build transformative systems where data indicates transformative scale is possible.",
+      "analysis": "Based on pre-1996 evidence, Jeff Bezos's entrepreneurial motivation was driven by a powerful synthesis of visionary ambition and systematic, data-driven execution. The causal pattern shows a progression from grand, conceptual visions to pragmatic, opportunity-driven business creation. His 1982 valedictorian vision of building orbital colonies and space hotels [1] reveals a foundational motivation rooted in large-scale, frontier-building endeavors, not merely commercial success. This evolved into a demonstrated affinity for technology and early business experimentation as a teenager in Miami [2][4]. The critical catalyst was his 1994 decision to found an online bookstore after reading a statistic about 2,300% annual web growth [5], showcasing a motivation triggered by identifying a massive, quantifiable trend and acting decisively.\n\nA key tradeoff inherent in this motivation is between expansive, long-term vision and near-term analytical rigor. His early space colonization ideas required immense imagination, while his noted behavior in the 1990s\u2014quantifying all aspects of operations and basing decisions on data [3]\u2014demonstrates a counterbalancing obsession with measurable control. Under pressure, his likely behavior would be to retreat to data as a primary decision-making tool [3], using it to navigate uncertainty while keeping the ultimate visionary goal as a distant guide.\n\nTwo non-obvious inferences emerge. First, his motivation may be less about a specific industry (like books) and more about leveraging exponential technological curves [5] as a vehicle to eventually fund and realize his adolescent space-faring visions [1]. Second, his teenage business start [2][4], combined with his later data focus [3], suggests an intrinsic comfort with risk, provided it can be framed within a logical or analytical model.\n\nA significant risk caveat is the potential for a debilitating contradiction: the sheer scale of his visionary thinking [1] could conflict with the meticulous, spreadsheet-driven management [3] required to build a sustainable enterprise, leading to strategic overreach. A notable data gap exists regarding the nature and outcome of his first teenage business [2][4], leaving his early practical entrepreneurial learning opaque.",
       "confidence": "medium",
       "evidence_count": 5,
       "key_signals": [
@@ -2695,7 +2687,7 @@
       ]
     },
     "Intellectual curiousity": {
-      "analysis": "**Analysis: Intellectual Curiosity in Jeff Bezos (Pre-1996)**\n\nThe pre-1996 evidence reveals a pattern of intense, application-driven intellectual curiosity, characterized by a synthesis of expansive vision and rigorous technical discipline. This curiosity is not abstract but is channeled through structured frameworks for problem-solving and creation.\n\nA clear causal pattern emerges from his academic and early professional trajectory. His intellectual foundation is dual-faceted: he demonstrated early visionary thinking, as evidenced by his 1982 valedictorian speech outlining ambitions for orbital human colonies [3], yet grounded this in the concrete disciplines of electrical engineering and computer science at Princeton, where he graduated *summa cum laude* [6, 8]. This suggests a mind that seeks to tether grand, speculative ideas to executable, technical systems. The tradeoff inherent in this approach is a potential bias toward quantifiable and engineering-solvable problems, possibly at the expense of softer, qualitative domains. Under pressure, this pattern indicates he would likely retreat to data and first-principles reasoning, a behavior later corroborated by his noted 1990s tendency to quantify all aspects of company operations [19].\n\nTwo non-obvious inferences can be drawn. First, his high school creation of the \"Dream Institute\" to promote creative thinking in young students [12] signals an early, intrinsic interest in *systematizing* curiosity and innovation processes, not just possessing it himself. Second, his rejection of prestigious, stable technical roles at Intel and Bell Labs [7] in favor of finance (D.E. Shaw) implies his curiosity was strategically oriented toward understanding large-scale systems\u2014in this case, markets and business models\u2014as a platform for future ventures, not purely technical mastery.\n\nA key risk caveat is the potential for myopic focus. His curiosity appears heavily directed toward building and optimization (from orbital colonies to an online bookstore [21]), with less evidenced focus on deep societal, ethical, or humanistic inquiry. This engineering-centric curiosity could blindside him to complex human or regulatory factors.\n\nA significant data gap exists regarding the specific catalysts or influences behind his major switch at Princeton from physics to engineering [18], which would provide deeper insight into how he evaluates and selects intellectual frameworks. There are no direct contradictions in the evidence, but the juxtaposition of his speculative 1982 visions with his subsequent precise, data-driven reputation [19] highlights a defining synthesis: imagination disciplined by engineering rigor.",
+      "analysis": "Based on pre-1996 evidence, Jeff Bezos exhibits a pattern of intellectual curiosity that is intensely applied, commercially oriented, and driven by a synthesis of expansive vision and rigorous technical discipline. His curiosity is not abstract but channeled through structured frameworks for problem-solving and opportunity identification.\n\nA key causal pattern is the integration of speculative, long-range vision with immediate, quantitative execution. As a high school valedictorian in 1982, he publicly articulated an interest in building orbital human colonies\u2014a profoundly ambitious, frontier concept. However, his academic and early career path demonstrates a disciplined tradeoff: he pursued a rigorous engineering foundation (graduating *summa cum laude* in Electrical Engineering and Computer Science from Princeton) over pure theoretical science, having switched his major from physics. This suggests a behavioral template: grand vision is anchored and executed through applied technical systems. Under pressure, this pattern implies he would likely retreat to first principles and quantitative analysis, a tendency later evidenced by his 1990s reliance on data and spreadsheets for company decisions.\n\nTwo non-obvious inferences emerge. First, his early development of the \"Dream Institute\" to promote creative thinking in students indicates a precocious interest in *systematizing* curiosity and innovation, not just possessing it. Second, his choice upon graduation in 1986 to join finance (D.E. Shaw) over prestigious technical offers from Intel or Bell Labs reveals a strategic curiosity about systems of capital and market mechanics, seeking the leverage point where technology meets large-scale commercial opportunity.\n\nA significant risk caveat is the potential for a consequentialist mindset that could undervalue non-quantifiable factors. His curiosity appears heavily oriented toward scalable systems and measurable outcomes, which, while powerful, may create blind spots in domains requiring qualitative judgment or stakeholder considerations beyond pure data.\n\nA notable data gap exists regarding the specific catalysts for his major switch at Princeton and his detailed intellectual pursuits at D.E. Shaw, limiting a fuller understanding of his decision-making calculus during formative periods.",
       "confidence": "high",
       "evidence_count": 26,
       "key_signals": [
@@ -2794,18 +2786,18 @@
       "attribute_text": "Shaw and moved to Seattle , Washington, to open a virtual bookstore.",
       "event_date": "1990-01-01",
       "source_pub_date": "2026-03-16",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
-      "source": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
+      "source": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "deterministic_anchor",
       "raw_sentence": "Shaw and moved to Seattle , Washington, to open a virtual bookstore.",
       "before_cutoff": true,
       "verification_source_count": 3,
       "timing_provenance": "explicit",
       "merged_sources": [
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "merged_source_urls": [
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "merged_timestamps": [
         "1990-01-01"
@@ -2991,18 +2983,18 @@
       "attribute_text": "After graduating (1986) summa cum laude from Princeton University with degrees in electrical engineering and computer science , he undertook a series of jobs before joining the New York investment bank D.E.",
       "event_date": "1986-01-01",
       "source_pub_date": "2026-03-16",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
-      "source": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
+      "source": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "raw_sentence_high_recall",
       "raw_sentence": "After graduating (1986) summa cum laude from Princeton University with degrees in electrical engineering and computer science , he undertook a series of jobs before joining the New York investment bank D.E.",
       "before_cutoff": true,
       "verification_source_count": 2,
       "timing_provenance": "explicit",
       "merged_sources": [
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "merged_source_urls": [
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "merged_timestamps": [
         "1986-01-01"
@@ -3032,8 +3024,8 @@
       "attribute_text": "While still in high school , Bezos developed the Dream Institute, a center that promoted creative thinking in young students.",
       "event_date": "1987-01-01",
       "source_pub_date": "2026-03-16",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
-      "source": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
+      "source": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "raw_sentence_high_recall",
       "raw_sentence": "While still in high school , Bezos developed the Dream Institute, a center that promoted creative thinking in young students.",
       "before_cutoff": true,
@@ -3042,10 +3034,10 @@
       "inference_reason": "teen_highschool_inference",
       "timing_provenance": "inferred",
       "merged_sources": [
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "merged_source_urls": [
-        "https://www.britannica.com/biography/jeff-bezos"
+        "https://www.britannica.com/biography/Jeff-Bezos"
       ],
       "merged_timestamps": [
         "1987-01-01"
@@ -4700,8 +4692,8 @@
       "attribute_text": "Shaw and moved to Seattle , Washington, to open a virtual bookstore.",
       "event_date": null,
       "source_pub_date": "2026-03-16",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
-      "source": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
+      "source": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "raw_sentence_high_recall",
       "raw_sentence": "Shaw and moved to Seattle , Washington, to open a virtual bookstore.",
       "before_cutoff": false,
@@ -4712,8 +4704,8 @@
       "attribute_text": "Working out of their garage with a handful of employees, they began developing the software for the site and the business plan for the new company.",
       "event_date": null,
       "source_pub_date": "2026-03-16",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
-      "source": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
+      "source": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "raw_sentence_high_recall",
       "raw_sentence": "Working out of their garage with a handful of employees, they began developing the software for the site and the business plan for the new company.",
       "before_cutoff": false,
@@ -4724,8 +4716,8 @@
       "attribute_text": "Named after the South American river , Amazon sold its first book in July 1995.",
       "event_date": "1995-01-01",
       "source_pub_date": "2026-03-16",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
-      "source": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
+      "source": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "raw_sentence_high_recall",
       "raw_sentence": "Named after the South American river , Amazon sold its first book in July 1995.",
       "before_cutoff": false,
@@ -4736,8 +4728,8 @@
       "attribute_text": "Shaw and moved to Seattle , Washington, to open a virtual bookstore.",
       "event_date": null,
       "source_pub_date": "2026-03-16",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
-      "source": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
+      "source": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "interview_generation_heuristics",
       "raw_sentence": "Shaw and moved to Seattle , Washington, to open a virtual bookstore.",
       "before_cutoff": false,
@@ -4748,8 +4740,8 @@
       "attribute_text": "Working out of their garage with a handful of employees, they began developing the software for the site and the business plan for the new company.",
       "event_date": null,
       "source_pub_date": "2026-03-16",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
-      "source": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
+      "source": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "interview_generation_heuristics",
       "raw_sentence": "Working out of their garage with a handful of employees, they began developing the software for the site and the business plan for the new company.",
       "before_cutoff": false,
@@ -4760,8 +4752,8 @@
       "attribute_text": "Named after the South American river , Amazon sold its first book in July 1995.",
       "event_date": "1995-01-01",
       "source_pub_date": "2026-03-16",
-      "source_url": "https://www.britannica.com/biography/jeff-bezos",
-      "source": "https://www.britannica.com/biography/jeff-bezos",
+      "source_url": "https://www.britannica.com/biography/Jeff-Bezos",
+      "source": "https://www.britannica.com/biography/Jeff-Bezos",
       "extraction_method": "interview_generation_heuristics",
       "raw_sentence": "Named after the South American river , Amazon sold its first book in July 1995.",
       "before_cutoff": false,
@@ -4777,6 +4769,6 @@
     "similarity_threshold": 0.65
   },
   "post_dedup_diagnostics": null,
-  "generated_at": "2026-03-16T11:26:38.046517+00:00",
+  "generated_at": "2026-03-16T10:47:19.577989+00:00",
   "analysis_rerun_note": "DeepSeek verbose re-run for Tab 1 (expanded)"
 }

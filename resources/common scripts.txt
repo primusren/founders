@@ -1,0 +1,3 @@
+.\.venv\Scripts\Activate.ps1
+
+py -m streamlit run results_viewer.py

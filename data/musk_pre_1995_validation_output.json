@@ -1,0 +1,33 @@
+{
+  "entrepreneur_name": "Elon Musk",
+  "cutoff_date": "1995-01-01",
+  "source_count": 2,
+  "accepted_count": 2,
+  "excluded_count": 0,
+  "accepted_claims": [
+    {
+      "category": "education",
+      "attribute_text": "The attribute is a shorthand for the attribute name.\nText: In 1992, he transferred to the University of Pennsylvania to study physics and economics",
+      "event_date": "1992-01-01",
+      "source_pub_date": "2015-05-19",
+      "source_url": "sample://musk_bio_source_1",
+      "extraction_method": "transformers_plus_heuristics",
+      "raw_sentence": "In 1992, he transferred to the University of Pennsylvania to study physics and economics.",
+      "before_cutoff": true,
+      "verification_source_count": 2
+    },
+    {
+      "category": "education",
+      "attribute_text": "The attribute is a shorthand for the attribute name.\nText: In 1992, he transferred to the University of Pennsylvania to study physics and economics",
+      "event_date": "1992-01-01",
+      "source_pub_date": "2023-09-12",
+      "source_url": "sample://musk_bio_source_2",
+      "extraction_method": "transformers_plus_heuristics",
+      "raw_sentence": "In 1992, he transferred to the University of Pennsylvania to study physics and economics.",
+      "before_cutoff": true,
+      "verification_source_count": 2
+    }
+  ],
+  "excluded_claims": [],
+  "generated_at": "2026-03-14T04:10:38.845330Z"
+}
