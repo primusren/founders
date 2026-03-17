@@ -709,13 +709,29 @@ def _open_log_for_name(entrepreneur_name: str) -> tuple[str, dict] | tuple[None,
         with open(selected, "r", encoding="utf-8") as f:
             return selected, json.load(f)
 
-    candidates = [
-        os.path.join(LOG_DIR, f"{slug_from_name(entrepreneur_name)}_ingestion_detailed_log.json"),
-        os.path.join(LOG_DIR, f"{entrepreneur_name.lower().replace(' ', '_')}_ingestion_detailed_log.json"),
-        os.path.join(LOG_DIR, "elon_ingestion_detailed_log.json"),
-    ]
-    for file_path in candidates:
-        if os.path.exists(file_path):
+    # Canonical-key lookup for aliases like "Elon" vs "Elon Musk".
+    wanted_key = canonical_name_key(entrepreneur_name)
+    if wanted_key:
+        for display_name, file_path in index.items():
+            if canonical_name_key(display_name) == wanted_key and os.path.exists(file_path):
+                with open(file_path, "r", encoding="utf-8") as f:
+                    return file_path, json.load(f)
+
+    # Prefix-token fallback, e.g. "Mark" -> "Mark Zuckerberg".
+    tokens = [tok for tok in re.split(r"\s+", str(entrepreneur_name).strip().lower()) if tok]
+    if tokens:
+        for display_name, file_path in index.items():
+            low = str(display_name).lower()
+            if all(tok in low for tok in tokens) and os.path.exists(file_path):
+                with open(file_path, "r", encoding="utf-8") as f:
+                    return file_path, json.load(f)
+
+    # File-name based fallback from discovered logs.
+    for file_path in _discover_log_files():
+        base = os.path.basename(file_path).lower()
+        slug = slug_from_name(entrepreneur_name)
+        underscored = str(entrepreneur_name).lower().replace(" ", "_")
+        if ((slug and slug in base) or (underscored and underscored in base)) and os.path.exists(file_path):
             with open(file_path, "r", encoding="utf-8") as f:
                 return file_path, json.load(f)
     return None, None
@@ -754,15 +770,23 @@ def fetch_comprehensive_from_json(entrepreneur_name: str) -> pd.DataFrame:
     if not log_data:
         return pd.DataFrame()
     facts = log_data.get("comprehensive_pre_cutoff_facts", [])
+    if not isinstance(facts, list) or not facts:
+        # Fallback to accepted claims when comprehensive list is absent.
+        facts = log_data.get("accepted_claims", [])
     rows: list[dict] = []
     for fact in facts:
+        sources_value = fact.get("sources", [])
+        if isinstance(sources_value, list):
+            source_text = ", ".join(str(s) for s in sources_value if str(s).strip())
+        else:
+            source_text = str(fact.get("source", "")).strip()
         rows.append(
             {
                 "category": fact.get("category", "uncategorized"),
-                "fact": fact.get("fact", ""),
-                "timestamp": fact.get("timestamp", ""),
-                "source": ", ".join(fact.get("sources", [])),
-                "inference": fact.get("inference", ""),
+                "fact": fact.get("fact", "") or fact.get("attribute_text", ""),
+                "timestamp": fact.get("timestamp", "") or fact.get("event_date", ""),
+                "source": source_text or str(fact.get("source", "")),
+                "inference": fact.get("inference", "") or fact.get("inference_reason", ""),
                 "confidence": fact.get("confidence", "low"),
             }
         )
@@ -773,7 +797,7 @@ def fetch_organized_analysis_from_json(entrepreneur_name: str) -> dict[str, dict
     _, log_data = _open_log_for_name(entrepreneur_name)
     if not log_data:
         return {}
-    analysis = log_data.get("founder_analysis", {}) or log_data.get("organized_analysis", {})
+    analysis = log_data.get("organized_analysis", {}) or log_data.get("founder_analysis", {})
     if isinstance(analysis, dict):
         return analysis
     return {}
@@ -897,9 +921,20 @@ def _get_env_or_dotenv(key: str) -> str:
 
 
 def _resolve_deepseek_api_key() -> tuple[str, str]:
+    # Streamlit Cloud standard secret channel.
+    try:
+        secret_key = str(st.secrets.get("DEEPSEEK_API_KEY", "")).strip()
+        if secret_key:
+            return secret_key, "streamlit_secrets:DEEPSEEK_API_KEY"
+    except Exception:
+        pass
+
     direct = os.getenv("DEEPSEEK_API_KEY", "").strip()
     if direct:
         return direct, "env:DEEPSEEK_API_KEY"
+    dotenv_value = _get_env_or_dotenv("DEEPSEEK_API_KEY")
+    if dotenv_value:
+        return dotenv_value, "dotenv_loader:DEEPSEEK_API_KEY"
     # Streamlit can execute with different working directories; search robustly.
     roots: list[Path] = []
     try:
